@@ -1,18 +1,25 @@
-# Vue 3 + TypeScript + Vite
+<br>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Features
 
-## Recommended IDE Setup
+- 💚 [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [Yarn](https://yarnpkg.com/)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- 🔥 [Firebase](https://firebase.google.com/) - authentication, firestore, storage, functions, hosting and more
 
-## Type Support For `.vue` Imports in TS
+- 📜 [Typescript](https://www.typescriptlang.org/)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- 🍍 [State Management with Pinia](https://pinia.vuejs.org/)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- 🎨 [TailwindCSS](https://tailwindcss.com/), [HeadlessUI](https://headlessui.com/), [Hero Icons](https://heroicons.com/)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- 📑 [Layout system](./src/layouts)
+
+- 🌍 [I18n](https://vue-i18n.intlify.dev/)
+
+- 🗒 [ESLint](https://eslint.org/), [Prettier](https://prettier.io/docs/en/index.html), [Lint-Staged](https://github.com/okonet/lint-staged), [Husky](https://github.com/typicode/husky)
+
+- ⚙️ Unit and Integration Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Playwright](https://playwright.dev/) on [GitHub Actions](https://github.com/features/actions)
+
+- ☁️ Deploy to Firebase Hosting
+
+<br>
